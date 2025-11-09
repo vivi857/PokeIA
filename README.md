@@ -43,7 +43,7 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 
 pokemon-data-agent/
 │
-| ├── ingest.py # Faz ingestão da PokéAPI → cria e popula o banco
+## ├── ingest.py # Faz ingestão da PokéAPI → cria e popula o banco
 ## ├── agent.py # Lógica de busca e integração entre GPT e o banco
 ## ├── api.py # API FastAPI com endpoints /pokemon, /ask, /list e interface web
 ## ├── pokemon.db # Banco de dados SQLite criado automaticamente
