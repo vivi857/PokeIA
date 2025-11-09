@@ -50,33 +50,21 @@ pokemon-data-agent/
 ├── requirements.txt # Dependências do projeto
 └── README.md # Documentação completa do projeto
 
-yaml
-Copiar código
 
 ---
 
 ## ⚙️ Como Executar o Projeto
 
 ### 1️⃣ Criar e ativar o ambiente virtual
-```bash
 python -m venv .venv
 .venv\Scripts\activate
 2️⃣ Instalar as dependências
-bash
-Copiar código
 pip install -r requirements.txt
 3️⃣ Popular o banco de dados
-bash
-Copiar código
 python ingest.py
 4️⃣ Rodar a API
-bash
-Copiar código
 uvicorn api:app --reload
 Depois, abra no navegador:
-
-cpp
-Copiar código
 http://127.0.0.1:8000/
 🖥️ Interface Interativa — Chat Pokémon ⚡
 A aplicação agora possui uma interface estilo chat, onde o usuário pode conversar com a PokeIA sem precisar usar endpoints manuais.
@@ -86,15 +74,10 @@ Cada pergunta e resposta aparecem em balõezinhos, e as respostas incluem a imag
 Acesse http://127.0.0.1:8000/
 
 Digite algo como:
-
-arduino
-Copiar código
 Qual é o peso do Pikachu?
 A resposta aparecerá automaticamente, com o sprite do Pokémon 🖼️
 
 🧠 Exemplo visual
-csharp
-Copiar código
 Você: Qual é o peso do Pikachu?
 PokeIA ⚡: O Pokémon Pikachu possui as seguintes informações:
 - Altura: 0.4 m
@@ -137,17 +120,6 @@ Vivianne Ribeiro Fábrio
 🔗 LinkedIn
 
 ✨ Desenvolvido com curiosidade, cuidado e um toque de criatividade — unindo Governança, Engenharia e Pokémon.
-
-yaml
-Copiar código
-
----
-
-## 💡 Toques que te diferenciam
-✅ O texto soa **natural e humano**, como se você mesma tivesse escrito (sem “vozes de IA”).  
-✅ Mostra **maturidade técnica + criatividade** — equilíbrio raro.  
-✅ Apresenta **contexto e propósito**, algo que TOTVS adora ver em quem entende dados de ponta a ponta.  
-
 ---
 
 Quer que eu te mostre como incluir uma **prévia visual (print da interface)** direto no topo do README, tipo uma mini “capa do projeto” do GitHub?  
