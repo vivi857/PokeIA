@@ -43,12 +43,12 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 
 pokemon-data-agent/
 │
-├── ingest.py # Faz ingestão da PokéAPI → cria e popula o banco
-├── agent.py # Lógica de busca e integração entre GPT e o banco
-├── api.py # API FastAPI com endpoints /pokemon, /ask, /list e interface web
-├── pokemon.db # Banco de dados SQLite criado automaticamente
-├── requirements.txt # Dependências do projeto
-└── README.md # Documentação completa do projeto
+## ├── ingest.py # Faz ingestão da PokéAPI → cria e popula o banco
+## ├── agent.py # Lógica de busca e integração entre GPT e o banco
+## ├── api.py # API FastAPI com endpoints /pokemon, /ask, /list e interface web
+## ├── pokemon.db # Banco de dados SQLite criado automaticamente
+## ├── requirements.txt # Dependências do projeto
+## └── README.md # Documentação completa do projeto
 
 
 ---
@@ -58,11 +58,11 @@ pokemon-data-agent/
 ### 1️⃣ Criar e ativar o ambiente virtual
 python -m venv .venv
 .venv\Scripts\activate
-2️⃣ Instalar as dependências
+### 2️⃣ Instalar as dependências
 pip install -r requirements.txt
-3️⃣ Popular o banco de dados
+### 3️⃣ Popular o banco de dados
 python ingest.py
-4️⃣ Rodar a API
+### 4️⃣ Rodar a API
 uvicorn api:app --reload
 Depois, abra no navegador:
 http://127.0.0.1:8000/
