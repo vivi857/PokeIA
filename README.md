@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 O **PokeIA** é uma aplicação que desenvolvi para o **Desafio Técnico TOTVS — Governança e Dados**, com o objetivo de demonstrar, de forma prática e divertida, conceitos de *governança, integração e qualidade de dados*.  
 
@@ -17,7 +17,7 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 
 ---
 
-## 🧠 Objetivos Técnicos
+## Objetivos Técnicos
 
 - Aplicar boas práticas de **Governança de Dados** em um mini pipeline ETL (extração, transformação e carga).  
 - Expor uma **API REST** bem estruturada e documentada.  
@@ -26,7 +26,7 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Função |
 |-------------|--------|
@@ -39,7 +39,7 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 pokemon-data-agent/
 │
@@ -53,7 +53,7 @@ pokemon-data-agent/
 
 ---
 
-## ⚙️ Como Executar o Projeto
+## Como Executar o Projeto
 
 ### 1️⃣ Criar e ativar o ambiente virtual
 python -m venv .venv
@@ -70,14 +70,14 @@ http://127.0.0.1:8000/
 A aplicação agora possui uma interface estilo chat, onde o usuário pode conversar com a PokeIA sem precisar usar endpoints manuais.
 Cada pergunta e resposta aparecem em balõezinhos, e as respostas incluem a imagem oficial do Pokémon.
 
-🔹 Como usar:
+Como usar:
 Acesse http://127.0.0.1:8000/
 
 Digite algo como:
 Qual é o peso do Pikachu?
 A resposta aparecerá automaticamente, com o sprite do Pokémon 🖼️
 
-🧠 Exemplo visual
+Exemplo visual
 Você: Qual é o peso do Pikachu?
 PokeIA ⚡: O Pokémon Pikachu possui as seguintes informações:
 - Altura: 0.4 m
@@ -93,7 +93,7 @@ GET	/ask?question=	Interpreta perguntas em linguagem natural
 GET	/list	Lista Pokémons salvos no banco
 GET	/	Interface interativa estilo chat Pokémon
 
-📈 Diferenciais Técnicos
+Diferenciais Técnicos
 ✅ Arquitetura modular e clara
 ✅ Interface dinâmica em HTML/CSS/JS puro (sem dependências externas)
 ✅ Histórico de conversas em tempo real
@@ -101,7 +101,7 @@ GET	/	Interface interativa estilo chat Pokémon
 ✅ Banco SQLite gerado e populado automaticamente
 ✅ Logs e tratamento de erro no processo de ingestão
 
-🧩 Aprendizados e Reflexões
+Aprendizados e Reflexões
 Durante o desenvolvimento, pude reforçar conceitos que considero essenciais em Data Engineering e Governança de Dados:
 
 Rastreabilidade: manter visibilidade sobre origem e transformação dos dados.
