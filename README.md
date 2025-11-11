@@ -122,7 +122,7 @@ GET	/ask?question=	Interpreta perguntas em linguagem natural
 GET	/list	Lista Pokémons salvos no banco
 GET	/	Interface interativa estilo chat Pokémon
 
-Diferenciais Técnicos
+## Diferenciais Técnicos
 - Arquitetura modular e clara
 - Interface dinâmica em HTML/CSS/JS puro (sem dependências externas)
 - Histórico de conversas em tempo real
@@ -130,7 +130,7 @@ Diferenciais Técnicos
 - Banco SQLite gerado e populado automaticamente
 - Logs e tratamento de erro no processo de ingestão
 
-Autoria
+## Autoria
 Vivianne Ribeiro Fábrio
 Engenheira de Software / Data Engineer
 São Paulo — SP
