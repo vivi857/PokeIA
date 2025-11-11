@@ -137,9 +137,6 @@ São Paulo — SP
 [vivi_fabrio@hotmail.com]
 
 
-Quer que eu te mostre como incluir uma **prévia visual (print da interface)** direto no topo do README, tipo uma mini “capa do projeto” do GitHub?  
-Isso dá um *impacto visual forte* quando o avaliador abrir o repositório.
-
 
 
 
