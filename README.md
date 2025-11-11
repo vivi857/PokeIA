@@ -131,10 +131,10 @@ GET	/	Interface interativa estilo chat Pokémon
 - Logs e tratamento de erro no processo de ingestão
 
 ## Autoria
-Vivianne Ribeiro Fábrio
-Engenheira de Software / Data Engineer
-São Paulo — SP
-[vivi_fabrio@hotmail.com]
+Vivianne Ribeiro Fábrio |
+Engenheira de Software / Data Engineer |
+São Paulo — SP |
+[vivi_fabrio@hotmail.com] |
 
 
 
