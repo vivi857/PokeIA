@@ -45,7 +45,7 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 pokemon-data-agent/
 │
  PokeIA/
- ├── ingest.py          # Coleta dados da PokéAPI e salva no banco |
+ | ── ingest.py          # Coleta dados da PokéAPI e salva no banco |
  ├── check_db.py        # Verifica conteúdo do banco |
  ├── agent.py           # Lógica de IA e conexão com OpenAI |
  ├── api.py             # API principal (FastAPI) |
