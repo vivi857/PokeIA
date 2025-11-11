@@ -42,15 +42,15 @@ O projeto conecta-se à **PokéAPI**, armazena as informações em um banco **SQ
 
 ## Estrutura do Projeto
 
-pokemon-data-agent/
- ── ingest.py         # Coleta dados da PokéAPI e salva no banco
- ── check_db.py        # Verifica conteúdo do banco |
- ── agent.py           # Lógica de IA e conexão com OpenAI |
- ── api.py             # API principal (FastAPI) |
- ── pokemon.db         # Banco SQLite |
- ── .env               # Chave da API (não versionado) |
- ── requirements.txt   # Dependências do projeto |
- ── README.md          # Documentação do projeto |
+pokemon-data-agent
+ ── ingest.py          # Coleta dados da PokéAPI e salva no banco
+ ── check_db.py        # Verifica conteúdo do banco 
+ ── agent.py           # Lógica de IA e conexão com OpenAI 
+ ── api.py             # API principal (FastAPI) 
+ ── pokemon.db         # Banco SQLite 
+ ── .env               # Chave da API (não versionado) 
+ ── requirements.txt   # Dependências do projeto 
+ ── README.md          # Documentação do projeto 
 
 
 
